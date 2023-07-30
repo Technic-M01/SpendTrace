@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">SpendTrace</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <string name="title_recent">Recent</string>
+
+
+    <!-- UI Intractables -->
+    <string name="submit_button">Submit</string>
+    <string name="vendor_hint">Vendor Name</string>
+    <string name="purchase_amount_hint">Purchase Amount</string>
+
+
+</resources>

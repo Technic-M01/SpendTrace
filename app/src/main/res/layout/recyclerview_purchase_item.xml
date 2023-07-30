@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginVertical="6dp"
+    android:padding="8dp"
+    android:background="@color/sage">
+
+    <TextView
+        android:id="@+id/tv_vendor_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:text="Vendor"
+        />
+
+    <TextView
+        android:id="@+id/tv_vendor"
+        style="@style/purchase_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_vendor_label"
+        tools:text="vendor" />
+
+    <TextView
+        android:id="@+id/tv_price_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="@id/tv_date_label"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:text="Amount" />
+
+    <TextView
+        android:id="@+id/tv_price"
+        style="@style/purchase_subtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/tv_price_label"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:text="$ 10.00" />
+
+    <TextView
+        android:id="@+id/tv_date_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/tv_vendor"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="12dp"
+        android:text="Date" />
+
+    <TextView
+        android:id="@+id/tv_date"
+        style="@style/purchase_subtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/tv_date_label"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:text="06-20-2023" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

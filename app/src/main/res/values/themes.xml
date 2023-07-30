@@ -1,0 +1,32 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.SpendTrace" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/air_superiority</item>
+        <item name="colorPrimaryVariant">@color/feidgrau</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="purchase_title">
+        <item name="android:textSize">26sp</item>
+        <item name="android:textColor">@color/black_olive</item>
+    </style>
+
+    <style name="purchase_subtitle">
+        <item name="android:textSize">22sp</item>
+        <item name="android:textColor">@color/drab_dark_brown</item>
+    </style>
+
+    <style name="text_input">
+        <item name="android:layout_marginHorizontal">34dp</item>
+        <item name="android:layout_marginTop">16dp</item>
+    </style>
+
+</resources>
